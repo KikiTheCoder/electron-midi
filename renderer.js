@@ -28,6 +28,8 @@ const setLevel = (level) => {
         window.midi_api.sendMidi([144, 8, 0])
         window.midi_api.sendMidi([144, 0, 0])
 
+        window.voicemeeter_api.setGain(-60)
+
         val5.classList.add("black")
         val5.classList.remove("red")
 
@@ -48,6 +50,8 @@ const setLevel = (level) => {
         window.midi_api.sendMidi([144, 16, 0])
         window.midi_api.sendMidi([144, 8, 0])
         window.midi_api.sendMidi([144, 0, 1])
+
+        window.voicemeeter_api.setGain(-12)
 
         val5.classList.add("black")
         val5.classList.remove("red")
@@ -70,6 +74,8 @@ const setLevel = (level) => {
         window.midi_api.sendMidi([144, 8, 1])
         window.midi_api.sendMidi([144, 0, 1])
 
+        window.voicemeeter_api.setGain(-6)
+
         val5.classList.add("black")
         val5.classList.remove("red")
 
@@ -90,6 +96,8 @@ const setLevel = (level) => {
         window.midi_api.sendMidi([144, 16, 1])
         window.midi_api.sendMidi([144, 8, 1])
         window.midi_api.sendMidi([144, 0, 1])
+
+        window.voicemeeter_api.setGain(0)
 
         val5.classList.add("black")
         val5.classList.remove("red")
@@ -112,6 +120,8 @@ const setLevel = (level) => {
         window.midi_api.sendMidi([144, 8, 1])
         window.midi_api.sendMidi([144, 0, 1])
 
+        window.voicemeeter_api.setGain(6)
+
         val5.classList.add("black")
         val5.classList.remove("red")
 
@@ -132,6 +142,8 @@ const setLevel = (level) => {
         window.midi_api.sendMidi([144, 16, 1])
         window.midi_api.sendMidi([144, 8, 1])
         window.midi_api.sendMidi([144, 0, 1])
+
+        window.voicemeeter_api.setGain(12)
 
         val5.classList.add("red")
         val5.classList.remove("black")
