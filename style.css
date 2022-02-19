@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    background-color: #222;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    padding: 20px 20px 0px 40px;
+}
+
+.val {
+    height: 40px;
+    width: 80px;
+    border-radius: 3px;
+    background-color: #918b8b;
+    margin-top: 10px;
+}
+
+.black {
+    background-color: #918b8b;
+}
+
+.red {
+    background-color: #ee3a1a;
+}
+
+.yellow {
+    background-color: #eec50d;
+}
+
+.green {
+    background-color: #4cce10;
+}
